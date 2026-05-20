@@ -1,78 +1,56 @@
 # Hey, I'm Sipho 👋🏾
 
-> *"When you design more, you code less."*
+Backend-focused developer from Johannesburg 🇿🇦 building real, production-ready software for the African market.
 
-I'm a backend-focused developer from Johannesburg, South Africa 🇿🇦 — studying at **WeThinkCode_** and building real products that solve real problems in the African market.
-
-I don't just build for portfolios. I build things that are live, used, and iterated on.
+> Building systems, not just projects.
 
 ---
 
-## 🚀 What I'm Building
+## 🚀 Featured Project
 
-### [Konneku](https://konneku.co.za) — Trades Marketplace
-A South African marketplace connecting customers with skilled tradespeople — plumbers, electricians, carpenters and more.
+### 🧩 Konneku — Skilled Trades Marketplace
 
-- **Full backend** built with FastAPI — auth, bookings, payments, reviews, portfolios, analytics
-- **Dual role system** — customers book, workers fulfill
-- **Paystack integration** — card and cash payment flows
-- **Row Level Security** — database-level access control via Supabase RLS
-- **Custom analytics** — tracking search behaviour, worker demand, booking funnels
-- **Live at** → [konneku.co.za](https://konneku.co.za)
+https://konneku.co.za
 
-> Stack: `FastAPI` `Python` `Supabase` `PostgreSQL` `Paystack` `React` `TypeScript` `Vercel` `Railway`
+A platform connecting customers with verified tradespeople (electricians, plumbers, carpenters, etc.)
+
+* Full backend architecture (FastAPI)
+* Auth, bookings, reviews, analytics
+* Paystack payment integration
+* Role-based system (customer ↔ worker)
+* Supabase + PostgreSQL with RLS security
+
+**Stack:** FastAPI · PostgreSQL · Supabase · React · TypeScript · Paystack · Railway · Vercel
 
 ---
 
 ## 🛠 Tech Stack
 
-```
-Backend        FastAPI · Spring Boot · Node.js · Express
-Languages      Python · Java · JavaScript · TypeScript
-Databases      PostgreSQL · Supabase · MongoDB
-Frontend       React · TypeScript · Tailwind CSS
-DevOps         Git · GitHub · Docker · Railway · Vercel
-Auth & Storage JWT · Supabase Auth · Supabase Storage · RLS
-Payments       Paystack
-```
+**Backend:** FastAPI · Spring Boot · Node.js
+**Frontend:** React · TypeScript · Tailwind
+**Databases:** PostgreSQL · Supabase · MongoDB
+**DevOps:** Docker · Railway · Vercel · GitHub
+**Auth:** JWT · Supabase Auth · RLS
 
 ---
 
-## 📚 Currently Learning
+## 🧠 What I'm Focused On
 
-- **System design** — designing before coding, not the other way around
-- **Scalable architectures** — building for growth, not just for now
-- **AI integrations** — building AI-powered products with real use cases
-- **TDD** — writing tests properly, not as an afterthought
-- **Cloud infrastructure** — understanding what happens after you deploy
-
----
-
-## 💡 What I've Learned the Hard Way
-
-- Rushing to code before designing costs more time than designing first ever would
-- Validation belongs in the schema, not scattered across your route handlers
-- `ON DELETE CASCADE` is your friend — design your database relationships properly
-- Row Level Security is not optional when you're handling real user data
-- Shipping something imperfect is better than perfecting something unshipped
+* Building scalable backend systems
+* Shipping real-world SaaS products
+* AI-powered learning and automation tools
+* System design & clean architecture
 
 ---
 
-## 🎯 What I'm Working Toward
+## 📌 Current Direction
 
-- Building AI-powered tools that solve real African market problems
-- Becoming a high-level backend engineer who understands the full stack
-- Creating products used at scale — not just demo projects
-- Eventually building a company, not just writing code for one
+I’m focused on building products that solve real problems in African markets, not just tutorial projects or demos.
 
 ---
 
-## 📫 Let's Connect
+## 📫 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Siphosihle%20Morabe-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/siphosihle-morabe-996816266/)
-[![GitHub](https://img.shields.io/badge/GitHub-Siphosihlemorabe-181717?style=flat&logo=github)](https://github.com/Siphosihlemorabe)
-[![Konneku](https://img.shields.io/badge/Product-konneku.co.za-4f46e5?style=flat)](https://konneku.co.za)
-
----
-
-*Built in Johannesburg. Solving African problems with African context.* 🌍
+GitHub: https://github.com/Siphosihlemorabe
+LinkedIn: https://www.linkedin.com/in/siphosihle-morabe-996816266/
+Konneku: https://konneku.co.za
