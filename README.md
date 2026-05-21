@@ -1,4 +1,4 @@
-# Hey, I'm Sipho 👋🏾
+# Hey, I'm Siphosihle 👋🏾, But you can call me Sim
 
 Backend-focused developer from Johannesburg 🇿🇦 building real, production-ready software for the African market.
 
