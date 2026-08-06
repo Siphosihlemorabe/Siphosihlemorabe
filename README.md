@@ -10,21 +10,21 @@ I ship real systems — deployed, used, paid for — not tutorial projects.
 
 ### [Konneku](https://konneku.co.za) — Skilled Trades Marketplace · *Live*
 
-Connects customers with verified tradespeople (electricians, plumbers, carpenters). Full backend architecture: authentication, bookings, reviews, analytics, role-based access (customer ↔ worker), and Paystack payment integration. PostgreSQL with row-level security via Supabase.
+Connects customers with verified tradespeople (electricians, plumbers, carpenters) with bookings, reviews, analytics, and Paystack payments.
 
-`FastAPI` · `PostgreSQL` · `Supabase` · `React` · `TypeScript` · `Paystack` · `Railway` · `Vercel`
+**What I learned:** API design and separation of concerns — keeping business logic out of route handlers. Dependency injection and why it makes code testable. Route protection and the real difference between JWT and session-based auth, including why sessions are the safer default for a web app you control.
 
-### IDC Proof — Peer-Tutor Logging Platform
+### [IDC Proof](https://github.com/Siphosihlemorabe/idc-proof) — Peer-Tutor Logging Platform
 
-Replaces a manual paper process for capturing peer-tutoring proof-of-work: session records, digital signatures, and photo/video evidence, designed phone-first for use during live sessions. Containerized with Docker and deployed to Google Cloud.
+Replaces a manual paper process for capturing peer-tutoring proof-of-work: session records, digital signatures, and photo/video evidence, built phone-first for use during live sessions.
 
-`FastAPI` · `SQLite` · `Docker` · `Google Cloud`
+**What I learned:** My first end-to-end cloud deployment. Containerizing an app with Docker, pushing an image to a container registry, pulling it onto a cloud VM, and running it in production — plus the parts nobody warns you about: IAM permissions, service accounts, and keeping persistent data separate from the disposable container.
 
-### Message Notification Router — Multimodal AI System
+### [Message Notification Router](https://github.com/Siphosihlemorabe/hackerrank-orchestrate-august26) — Multimodal AI System
 
-Routes WhatsApp messages (text, image posters, voice notes) into notify / digest / mute. Deterministic signal extraction in Python feeds a single multimodal LLM call, with a safety gate that catches scam and impersonation attempts in code rather than trusting the model. Built solo in 24 hours for HackerRank Orchestrate.
+Routes WhatsApp messages (text, image posters, voice notes) into notify / digest / mute. Deterministic signal extraction feeds a single multimodal LLM call, with a safety gate that catches scams in code rather than trusting the model. Built solo in 24 hours for HackerRank Orchestrate.
 
-`Python` · `Gemini` · `Pydantic` · `structured prompting`
+**What I learned:** Not to let the AI drive. Generated code can look right and be architecturally wrong, so the job is to understand the system well enough to catch it — and to make the trade-offs yourself: where deterministic rules beat a model, when a single call beats an agent loop, and what each choice costs.
 
 ---
 
